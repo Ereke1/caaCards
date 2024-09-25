@@ -1,0 +1,333 @@
+@charset "utf-8";
+
+h1 {
+	border-bottom:1px solid grey;
+}
+
+
+.h1 {
+	font-size:34px;
+	font-weight:bold;
+}
+
+
+
+.underline {
+	text-decoration:underline;
+}
+
+
+
+a {
+	color:blue;
+}
+
+.menu > a {
+	font-size:14px;
+}
+
+
+.menu .active {
+	color:black;
+	cursor:crosshair;
+}
+
+
+
+a:hover {
+	text-decoration:none;
+	color:red;
+}
+
+
+.myimg {
+	width:200px;
+
+}
+
+
+
+
+
+
+.newimg {
+	width:100%;
+	max-width:1100px;
+}
+
+.button {
+	display:inline-block;
+	background-image:url("img/button.png");
+	width:186px;
+	height:52px;
+	background-position:0 0;
+}
+.button:hover {
+	background-position:0 -52px;
+}
+
+
+main {
+	/* background-color:yellow; */
+}
+
+.block-container  {
+	background-color:lightgrey;
+	width:300px;
+	float:left;
+}
+
+.block-title {
+	background-color:#0f0f0f;
+	color:white;
+	font-size:16px;
+	border-bottom:1px solid #00b3ee;
+}
+
+.block-footer a {
+	color:#990000;
+	font-size:12px;
+}
+
+
+
+
+
+
+
+.mytable {
+	margin: 20px 0 80px;
+	border-collapse: collapse;
+}
+.mytable td,.mytable th {
+	border: 1px solid grey;
+	padding:10px;
+}
+
+.mytable .red {
+	background-color:#ff9090;
+}
+.mytable .green {
+	background-color:#90ff90;
+}
+
+.mytable-header {
+	background-color:#5bc0de;
+}
+
+
+.w100 {
+	width:100px;
+}
+
+
+main {
+	min-height:1000px;
+}
+
+
+ul li {
+	list-style:none;
+	background:url("img/smile.png") no-repeat center;
+	padding-left:20px;
+}
+
+
+
+
+
+
+
+.center {
+	max-width:970px;
+	width:100%;
+	margin:auto;
+}
+
+
+.fixed {
+	position:fixed;
+	width:100%;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+
+
+.main-nav {
+	text-align:center;
+}
+
+.main-nav a {
+	margin-top:-10px;
+	background-color:orange;
+	padding:40px 15px 10px;
+	color:white;
+	display:inline-block;
+	font-size:16px;
+	margin-left:-4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Второй вариант */
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+
+
+header {
+	border-bottom:1px solid grey;
+	/* margin-bottom:500px; */
+}
+
+.header-col-left {
+	float:left;
+	width:700px;
+}
+
+.header-col-left a {
+	margin:0 10px;
+}
+
+.header-col-right {
+	float:right;
+	width:300px;
+}
+
+
+
+
+.zindex0 {
+	position:relative;
+}
+
+.text {
+	position:absolute;
+	left:0;
+	top:0;
+	background-color:white;
+	width:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Первый вариант
+.clearfix2:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+*/
+
+
+
+/*
+
+
+.menu:hover {
+	background-color:yellow;
+}
+.menu:hover a {
+	font-size:20px;
+}
+
+Свойство: значение;
+font-size:34px;
+
+*/
+
+
+
+
+
+/*
+
+
+человек {
+	border:1px;
+}
+
+.негр {
+	color:black;
+}
+
+.китаец {
+	color:yellow;
+}
+
+.news-block {
+
+}
+.news-link {
+
+}
+
+.black-link {}
+.blue-link {}
+
+
+.высокий {
+	height:180px;
+}
+
+
+#china {
+	height:150px;
+}
+
+
+*/
